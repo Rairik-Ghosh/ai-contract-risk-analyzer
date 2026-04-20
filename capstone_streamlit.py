@@ -50,7 +50,7 @@ DOCUMENTS = [
     {"id": "doc_010", "topic": "Governing Law", "text": "Defines which laws apply to the contract."}
 ]
 def load_agent():
-    os.environ["GROQ_API_KEY"] = "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"
+    os.environ["GROQ_API_KEY"] = ""
     llm      = ChatGroq(model="llama-3.3-70b-versatile", temperature=0)
     embedder = SentenceTransformer("all-MiniLM-L6-v2")
 
